@@ -1,0 +1,42 @@
+System analysis and design:
+	- User/System requirements Specification and Feasibiblity analysis
+	- Goals
+	- Data Flow Diagrams(Data, Entity, Process, Store)
+	- Document Flow diagrams(Document, Entity, Process, Store)
+
+	- Logical DataBase design(Consceptual Design- ER_Model)
+	- Data Dictionay(Logical Design- Relational_Model)
+	- How data is to be input(/Data Pipeline)DataInput methods-ONLINE/OFFLINE
+	- How data is to be stored and issued for (/Data Pipeline)
+	
+
+1) Data Collection:
+	- APIs: api callusing requests
+	- Use of a Web Scrapper: scrap with selenium and beautifulsoup
+	- Database: MySQL, JSON using json library
+	- Numeric Forms
+	- Surveys
+
+2) Data Muning: Putting in shape the data for further analysis
+	- Data Cleaning (Measurements Errors, Data Entry Errors and Outliers)
+	- Outliers Detection: Statistial(Normal Data: IQR, stdevia, z-score, non-normal: mahanalobis distance, automatic: LOF, isolation, random)
+	- Empty cells, Null values, Inconsitent Values(Type Differences)
+	
+3) Exploratory data Analysis:(Text analysis (WordCloud, Text Classification using TextBlob)
+	- Finding trends
+	- Dependent Random Variables(P(x,y))
+	- Type of distribution
+	- Cause and effect amongst variables
+	- Derived variables
+	- Visualisation of Results.
+
+4) Modelling: 
+	- Feature Selection and Feature Extraction (dimensionality reduction: Principal Component Analysis(PCA), )
+	- Model Selection
+	- Model Validation-Evaluation(LOCV(Leave One Out Cross Validation) , K-Fold, Straified K-Fold, Leave-P-Out Cross Valition
+	- Hyperparameter Tuning
+
+5) Deployment:
+	- Flask API on Heroku
+	- Web Interface API
+	- Mobile 
